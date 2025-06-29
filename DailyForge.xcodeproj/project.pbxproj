@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		485F66742E08589500D467F1 /* DailyForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F66732E08589500D467F1 /* DailyForgeApp.swift */; };
-		485F66762E08589500D467F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F66752E08589500D467F1 /* ContentView.swift */; };
-		485F66782E08589500D467F1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F66772E08589500D467F1 /* Item.swift */; };
 		485F667A2E08589700D467F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485F66792E08589700D467F1 /* Assets.xcassets */; };
-		485F667D2E08589700D467F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485F667C2E08589700D467F1 /* Preview Assets.xcassets */; };
 		485F66872E08589700D467F1 /* DailyForgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F66862E08589700D467F1 /* DailyForgeTests.swift */; };
 		485F66912E08589700D467F1 /* DailyForgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F66902E08589700D467F1 /* DailyForgeUITests.swift */; };
 		485F66932E08589700D467F1 /* DailyForgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F66922E08589700D467F1 /* DailyForgeUITestsLaunchTests.swift */; };
+		48A114682E10773800F80B27 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A114672E10773800F80B27 /* Theme.swift */; };
+		48C4E1E32E11B44500FC4A5C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4E1E22E11B44500FC4A5C /* User.swift */; };
+		48C4E1E62E11B46C00FC4A5C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4E1E52E11B46C00FC4A5C /* DataManager.swift */; };
+		48C4E1E92E11B4B200FC4A5C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4E1E82E11B4B200FC4A5C /* MainView.swift */; };
+		48C4E1EB2E11B4C200FC4A5C /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4E1EA2E11B4C200FC4A5C /* CustomView.swift */; };
+		48C4E1ED2E11B52500FC4A5C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4E1EC2E11B52500FC4A5C /* SwiftUIView.swift */; };
+		48C4E1F02E11B5A900FC4A5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4E1EF2E11B5A900FC4A5C /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,16 +39,19 @@
 
 /* Begin PBXFileReference section */
 		485F66702E08589500D467F1 /* DailyForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		485F66732E08589500D467F1 /* DailyForgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForgeApp.swift; sourceTree = "<group>"; };
-		485F66752E08589500D467F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		485F66772E08589500D467F1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		485F66792E08589700D467F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		485F667C2E08589700D467F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		485F66822E08589700D467F1 /* DailyForgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyForgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		485F66862E08589700D467F1 /* DailyForgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForgeTests.swift; sourceTree = "<group>"; };
 		485F668C2E08589700D467F1 /* DailyForgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyForgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		485F66902E08589700D467F1 /* DailyForgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForgeUITests.swift; sourceTree = "<group>"; };
 		485F66922E08589700D467F1 /* DailyForgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48A114672E10773800F80B27 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		48C4E1E22E11B44500FC4A5C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		48C4E1E52E11B46C00FC4A5C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		48C4E1E82E11B4B200FC4A5C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		48C4E1EA2E11B4C200FC4A5C /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		48C4E1EC2E11B52500FC4A5C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		48C4E1EF2E11B5A900FC4A5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 				485F66712E08589500D467F1 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		485F66712E08589500D467F1 /* Products */ = {
 			isa = PBXGroup;
@@ -96,21 +103,12 @@
 		485F66722E08589500D467F1 /* DailyForge */ = {
 			isa = PBXGroup;
 			children = (
-				485F66732E08589500D467F1 /* DailyForgeApp.swift */,
-				485F66752E08589500D467F1 /* ContentView.swift */,
-				485F66772E08589500D467F1 /* Item.swift */,
+				48C4E1E42E11B45300FC4A5C /* Model */,
+				48C4E1E72E11B48A00FC4A5C /* View */,
+				48C4E1EE2E11B58E00FC4A5C /* Controller */,
 				485F66792E08589700D467F1 /* Assets.xcassets */,
-				485F667B2E08589700D467F1 /* Preview Content */,
 			);
 			path = DailyForge;
-			sourceTree = "<group>";
-		};
-		485F667B2E08589700D467F1 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				485F667C2E08589700D467F1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		485F66852E08589700D467F1 /* DailyForgeTests */ = {
@@ -128,6 +126,34 @@
 				485F66922E08589700D467F1 /* DailyForgeUITestsLaunchTests.swift */,
 			);
 			path = DailyForgeUITests;
+			sourceTree = "<group>";
+		};
+		48C4E1E42E11B45300FC4A5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48C4E1E22E11B44500FC4A5C /* User.swift */,
+				48C4E1E52E11B46C00FC4A5C /* DataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48C4E1E72E11B48A00FC4A5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48C4E1E82E11B4B200FC4A5C /* MainView.swift */,
+				48C4E1EA2E11B4C200FC4A5C /* CustomView.swift */,
+				48C4E1EC2E11B52500FC4A5C /* SwiftUIView.swift */,
+				48A114672E10773800F80B27 /* Theme.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48C4E1EE2E11B58E00FC4A5C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48C4E1EF2E11B5A900FC4A5C /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +224,7 @@
 				TargetAttributes = {
 					485F666F2E08589500D467F1 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					485F66812E08589700D467F1 = {
 						CreatedOnToolsVersion = 15.4;
@@ -234,7 +261,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485F667D2E08589700D467F1 /* Preview Assets.xcassets in Resources */,
 				485F667A2E08589700D467F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485F66762E08589500D467F1 /* ContentView.swift in Sources */,
-				485F66782E08589500D467F1 /* Item.swift in Sources */,
-				485F66742E08589500D467F1 /* DailyForgeApp.swift in Sources */,
+				48C4E1EB2E11B4C200FC4A5C /* CustomView.swift in Sources */,
+				48C4E1ED2E11B52500FC4A5C /* SwiftUIView.swift in Sources */,
+				48C4E1E92E11B4B200FC4A5C /* MainView.swift in Sources */,
+				48C4E1E62E11B46C00FC4A5C /* DataManager.swift in Sources */,
+				48C4E1F02E11B5A900FC4A5C /* ViewController.swift in Sources */,
+				48A114682E10773800F80B27 /* Theme.swift in Sources */,
+				48C4E1E32E11B44500FC4A5C /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DailyForge/Preview Content\"";
@@ -442,6 +473,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Aliemi.DailyForge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DailyForge-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DailyForge/Preview Content\"";
@@ -471,6 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Aliemi.DailyForge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DailyForge-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
